@@ -1,4 +1,4 @@
-version: "3"
+version: "3.7"
 services:
   geth-bootnode:
     hostname: geth-bootnode
@@ -140,6 +140,7 @@ services:
 
 networks:
   chainnet:
+    name: chainnet
     driver: bridge
     ipam:
       config:
